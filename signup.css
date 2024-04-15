@@ -1,0 +1,48 @@
+.nav-link{
+    margin-right: 20px;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+}
+.right{
+    margin-left: 400px;
+}
+.space{
+    margin-top: 200px;
+    text-align: center;
+}
+input{
+    width: 400px;
+}
+footer{
+    margin-top: 200px;
+}
+.subfooter{
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+.subfooter a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+.space-stores>a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.5);
+    font-size: 12px;
+}
+.space-stores>a:hover{
+    color: white;
+}
+.space-stores{
+    padding: 30px;
+}
+@media screen and (max-width:576px){
+    input{
+        width: 350px;
+    }
+}
